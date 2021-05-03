@@ -1,0 +1,27 @@
+some important git commands :->
+rm -rf .git                                          =         to delete contents of folder git
+git status               		      =         to check status of a git folder
+git init                                               =         to intialise the folder and contents an git folder
+git add --a  or git add .                   =         all files are in staging area
+git commit -m     		      =         it will commit(take snapshot) of all the files preset in staging area
+git commit -m  "Initial Commit"    =         start commit by message present in double inverted commas
+git log                                              =         to know which commits you've done
+git add first.txt                                =         to stage first.txt only
+shift + insert                                    =         to paste in git bash or git command
+git clone (https://github.com/tensorflow/tensorflow.git)   =    to create the directory named tensorflow(to keep name other than tensor)
+                                                                                                        and pull all the commentries of tensor flow
+pwd                                                  =         present working directory
+ls                                                       =         lits the contents of the folder in which you are
+cd                                                     =         change directory
+cd tensorflow/ (or any                    =         change directory to tensorflow (if not working paste full adress)  
+                          other adress)
+q                                                       =        to quit the current log or any command
+fi + [tab]                                           =        to autocomplete first.txt
+touch error.log                                 =        generates a file error.log in present working directory
+.gitignore                                         =        ignore all the file names present in it
+*.log                                                  =        typing this in .gitignore file will ignore all the .log files
+(folder name)/                                  =        typing this in .gitignore file will ignore the folder
+git status ignores the empty folders
+git restore --staged (filename)        =       unstage file and restore previous content
+git push -u origin master                 =       pushes file to your github or any other server hosting account
+git config --global alias.[nickname] 'command'    =     it gives nickname decided by you to the command

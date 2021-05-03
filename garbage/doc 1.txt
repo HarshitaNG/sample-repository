@@ -1,0 +1,42 @@
+disp("please enter linear congruence in this format: a*x congruence to b(mod n)");
+a=input("enter value of a");
+b=input("enter value of b");
+n=input("enter value of n");
+if a>n
+for j=1:n
+    %disp(j);
+    if mod(a,j)==0& mod(n,j)==0
+        
+        ak=[j];
+        
+    end
+    
+end
+jj=ak(end);
+else
+    for j=1:a
+    %disp(j);
+    if mod(a,j)==0& mod(n,j)==0
+        
+        ak=[j];
+        
+    end
+    
+    end
+jj=ak(end);
+
+end
+
+if mod(b,jj)==0
+    disp(["this linear congruence has:",jj,"solution"])
+    disp("and the value of x=")
+for p=0:n-1
+    if mod(a*p,n)==mod(b,n)
+        %solution=[p];
+        disp(p)
+    end
+end
+else
+    disp("this linear congruence has no solution")
+end
+      
